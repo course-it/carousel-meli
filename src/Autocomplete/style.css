@@ -1,0 +1,23 @@
+.autocomplete-container {
+  position: relative;
+}
+
+.autocomplete-container .autocomplete-input {
+  width: 680px;
+  height: 35px;
+  margin: 0 60px;
+  font-size: 16px;
+  padding-left: 10px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.autocomplete-container .fa-search {
+  position: absolute;
+  right: 60px;
+  top: 0px;
+  border-left: 1px solid #e6e6e6;
+  padding: 5px 10px;
+  color: #707070;
+  margin: 5px 0;
+}

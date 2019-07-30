@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: #fff159;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+}
+
+header .logo {
+  width: 150px;
+}
+
+header .logo img {
+  width: 100%;
+}
