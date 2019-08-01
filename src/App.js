@@ -23,10 +23,16 @@ class App extends React.Component {
     });
   }
 
+  handleCallback(results) {
+    this.setState({
+      searchResults: results
+    });
+  }
+
   render() {
     return (
       <div className="App">
-        <Header />
+        <Header handleCallback={results => this.handleCallback(results)} />
         <Carousel title="Video Juegos" products={this.state.result} />
         <Carousel title="Busqueda" products={this.state.searchResults} />
       </div>
